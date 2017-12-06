@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<title> Order Now! </title>
+<link ref="stylesheet" href="main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+
+  <h1> Order Now! </h1>
+
+  <form action="action_page.html" method="post">
+
+  <fieldset>
+    <legend> Personal Information </legend>
+    Name:<br>
+    <input type="text" name="firstname" size="15"><br>
+
+    Address:<br>
+    <input type="text" name="lastname" size="15"><br>
+
+    <br> City:
+    <input type="text" name="city" size="15">
+
+    State:
+    <input type="text" name="state" size="3">
+
+    Zip:
+    <input type="text" name="zip" size="6"><br>
+</fieldset>
+
+
+<fieldset>
+    <legend> Order Information </legend>
+    <br> Size: <select name="size">
+    <option value="small">small</option>
+    <option value="meduim">meduim</option>
+    <option value="large">large</option>
+    <option value="x-large">x-large</option>
+    </select>
+
+    Quanity:
+    <input type="text" name="quanity" size="3"><br>
+  </fieldset>
+
+<fieldset>
+    <legend> Payment Information </legend>
+    <br> Credit Card Type: <input type="radio" name="card type" value="Visa"> Visa
+    <input type="radio" name="card type" value="Master Card"> Master Card
+    <input type="radio" name="card type" value="Discover"> Discover<br>
+
+    <br> Credit Card Number:
+    <input type="text" name="card number" size="16"><br>
+</fieldset>
+
+
+    <br><input type="submit" value="Submit"><br>
+
+  </form>
+
+</body>
+
+
+</html>
